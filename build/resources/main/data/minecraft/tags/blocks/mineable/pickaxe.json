@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tavaress_additions:dense_sandstone_wall",
+    "tavaress_additions:dense_sandstone_stairs",
+    "tavaress_additions:dense_sandstone_slab",
+    "tavaress_additions:dense_sandstone"
+  ]
+}
