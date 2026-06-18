@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "tavaress_additions:polished_dense_sandstone"
-  },
-  "result": "tavaress_additions:polished_dense_sandstone_stairs"
-}
