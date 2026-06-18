@@ -21,7 +21,7 @@
     "smeltingReturnStack": {
       "value": "CUSTOM:DenseSandstone"
     },
-    "name": "dense_sandstone_smelting",
-    "namespace": "mod"
+    "name": "smooth_sandstone",
+    "namespace": "minecraft"
   }
 }

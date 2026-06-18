@@ -19,11 +19,17 @@ public class TavaressAdditionsModItems {
 	public static final RegistryObject<Item> DENSE_SANDSTONE_STAIRS;
 	public static final RegistryObject<Item> DENSE_SANDSTONE_SLAB;
 	public static final RegistryObject<Item> DENSE_SANDSTONE_WALL;
+	public static final RegistryObject<Item> POLISHED_DENSE_SANDSTONE;
+	public static final RegistryObject<Item> POLISHED_DENSE_SANDSTONE_STAIRS;
+	public static final RegistryObject<Item> POLISHED_DENSE_SANDSTONE_SLAB;
 	static {
 		DENSE_SANDSTONE = block(TavaressAdditionsModBlocks.DENSE_SANDSTONE);
 		DENSE_SANDSTONE_STAIRS = block(TavaressAdditionsModBlocks.DENSE_SANDSTONE_STAIRS);
 		DENSE_SANDSTONE_SLAB = block(TavaressAdditionsModBlocks.DENSE_SANDSTONE_SLAB);
 		DENSE_SANDSTONE_WALL = block(TavaressAdditionsModBlocks.DENSE_SANDSTONE_WALL);
+		POLISHED_DENSE_SANDSTONE = block(TavaressAdditionsModBlocks.POLISHED_DENSE_SANDSTONE);
+		POLISHED_DENSE_SANDSTONE_STAIRS = block(TavaressAdditionsModBlocks.POLISHED_DENSE_SANDSTONE_STAIRS);
+		POLISHED_DENSE_SANDSTONE_SLAB = block(TavaressAdditionsModBlocks.POLISHED_DENSE_SANDSTONE_SLAB);
 	}
 
 	// Start of user code block custom items

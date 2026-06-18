@@ -1,17 +1,15 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2026-06-17 14:03:29 -0300"
+      "unlock_right_away": "2026-06-17 22:17:22 -0300"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:eroded_badlands": "2026-06-17 14:08:32 -0300",
-      "minecraft:snowy_taiga": "2026-06-17 14:03:30 -0300",
-      "minecraft:desert": "2026-06-17 14:04:18 -0300",
-      "minecraft:warm_ocean": "2026-06-17 14:05:14 -0300",
-      "minecraft:savanna": "2026-06-17 14:04:59 -0300"
+      "minecraft:badlands": "2026-06-17 22:18:36 -0300",
+      "minecraft:grove": "2026-06-17 22:17:23 -0300",
+      "minecraft:desert": "2026-06-17 22:18:58 -0300"
     },
     "done": false
   },

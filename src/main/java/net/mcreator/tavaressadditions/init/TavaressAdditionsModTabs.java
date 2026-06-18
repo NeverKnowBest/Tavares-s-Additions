@@ -21,5 +21,8 @@ public class TavaressAdditionsModTabs {
 				tabData.accept(TavaressAdditionsModBlocks.DENSE_SANDSTONE_STAIRS.get().asItem());
 				tabData.accept(TavaressAdditionsModBlocks.DENSE_SANDSTONE_SLAB.get().asItem());
 				tabData.accept(TavaressAdditionsModBlocks.DENSE_SANDSTONE_WALL.get().asItem());
+				tabData.accept(TavaressAdditionsModBlocks.POLISHED_DENSE_SANDSTONE.get().asItem());
+				tabData.accept(TavaressAdditionsModBlocks.POLISHED_DENSE_SANDSTONE_STAIRS.get().asItem());
+				tabData.accept(TavaressAdditionsModBlocks.POLISHED_DENSE_SANDSTONE_SLAB.get().asItem());
 			}).build());
 }
