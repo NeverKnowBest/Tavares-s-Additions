@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "tavares_additions:block/tall_dry_grass",
+    "particle": "tavares_additions:block/tall_dry_grass"
+  },
+  "render_type": "cutout"
+}

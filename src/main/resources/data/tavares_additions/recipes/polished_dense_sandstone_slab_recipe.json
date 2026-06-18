@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "tavares_additions:polished_dense_sandstone"
+    }
+  },
+  "result": {
+    "item": "tavares_additions:polished_dense_sandstone_slab",
+    "count": 6
+  }
+}

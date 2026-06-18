@@ -1,0 +1,572 @@
+{
+  "mod_elements": [
+    {
+      "name": "TavaresAdditionsTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tavares_additions_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DenseSandstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_sandstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/loot_tables/blocks/dense_sandstone.json",
+          "src/main/resources/assets/tavaress_additions/models/item/dense_sandstone.json",
+          "src/main/java/net/mcreator/tavaressadditions/block/DenseSandstoneBlock.java",
+          "src/main/resources/assets/tavaress_additions/blockstates/dense_sandstone.json",
+          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks"
+    },
+    {
+      "name": "DenseSandstoneStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_sandstone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/loot_tables/blocks/dense_sandstone_stairs.json",
+          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_stairs.json",
+          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_stairs_inner.json",
+          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_stairs_outer.json",
+          "src/main/resources/assets/tavaress_additions/blockstates/dense_sandstone_stairs.json",
+          "src/main/java/net/mcreator/tavaressadditions/block/DenseSandstoneStairsBlock.java",
+          "src/main/resources/assets/tavaress_additions/models/item/dense_sandstone_stairs.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Deco"
+    },
+    {
+      "name": "DenseSandstoneSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_sandstone_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_slab.json",
+          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_slab_top.json",
+          "src/main/java/net/mcreator/tavaressadditions/block/DenseSandstoneSlabBlock.java",
+          "src/main/resources/data/tavaress_additions/loot_tables/blocks/dense_sandstone_slab.json",
+          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_slab_full.json",
+          "src/main/resources/assets/tavaress_additions/models/item/dense_sandstone_slab.json",
+          "src/main/resources/assets/tavaress_additions/blockstates/dense_sandstone_slab.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Deco"
+    },
+    {
+      "name": "DenseSandstoneWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_sandstone_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_wall_inventory.json",
+          "src/main/java/net/mcreator/tavaressadditions/block/DenseSandstoneWallBlock.java",
+          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_wall_side_tall.json",
+          "src/main/resources/data/tavaress_additions/loot_tables/blocks/dense_sandstone_wall.json",
+          "src/main/resources/assets/tavaress_additions/blockstates/dense_sandstone_wall.json",
+          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_wall.json",
+          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_wall_post.json",
+          "src/main/resources/assets/tavaress_additions/models/item/dense_sandstone_wall.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Deco"
+    },
+    {
+      "name": "DenseSandstoneStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_sandstone_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/advancements/recipes/dense_sandstone_stairs_recipe.json",
+          "src/main/resources/data/tavaress_additions/recipes/dense_sandstone_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
+    },
+    {
+      "name": "DenseSandstoneSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_sandstone_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/advancements/recipes/dense_sandstone_slab_recipe.json",
+          "src/main/resources/data/tavaress_additions/recipes/dense_sandstone_slab_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
+    },
+    {
+      "name": "DenseSandstoneWallRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_sandstone_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/advancements/recipes/dense_sandstone_wall_recipe.json",
+          "src/main/resources/data/tavaress_additions/recipes/dense_sandstone_wall_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
+    },
+    {
+      "name": "DenseSandstoneStairsStonecutter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_sandstone_stairs_stonecutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/advancements/recipes/dense_sandstone_stairs_stonecutter.json",
+          "src/main/resources/data/tavaress_additions/recipes/dense_sandstone_stairs_stonecutter.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
+    },
+    {
+      "name": "DenseSandstoneSlabStonecutter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_sandstone_slab_stonecutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/recipes/dense_sandstone_slab_stonecutter.json",
+          "src/main/resources/data/tavaress_additions/advancements/recipes/dense_sandstone_slab_stonecutter.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
+    },
+    {
+      "name": "DenseSandstoneWallStonecutter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_sandstone_wall_stonecutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/advancements/recipes/dense_sandstone_wall_stonecutter.json",
+          "src/main/resources/data/tavaress_additions/recipes/dense_sandstone_wall_stonecutter.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
+    },
+    {
+      "name": "PolishedDenseSandstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dense_sandstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/loot_tables/blocks/polished_dense_sandstone.json",
+          "src/main/resources/assets/tavaress_additions/models/block/polished_dense_sandstone.json",
+          "src/main/resources/assets/tavaress_additions/models/item/polished_dense_sandstone.json",
+          "src/main/java/net/mcreator/tavaressadditions/block/PolishedDenseSandstoneBlock.java",
+          "src/main/resources/assets/tavaress_additions/blockstates/polished_dense_sandstone.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Deco"
+    },
+    {
+      "name": "PolishedDenseSandstoneStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dense_sandstone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tavaress_additions/models/item/polished_dense_sandstone_stairs.json",
+          "src/main/resources/assets/tavaress_additions/models/block/polished_dense_sandstone_stairs_outer.json",
+          "src/main/java/net/mcreator/tavaressadditions/block/PolishedDenseSandstoneStairsBlock.java",
+          "src/main/resources/assets/tavaress_additions/models/block/polished_dense_sandstone_stairs.json",
+          "src/main/resources/data/tavaress_additions/loot_tables/blocks/polished_dense_sandstone_stairs.json",
+          "src/main/resources/assets/tavaress_additions/blockstates/polished_dense_sandstone_stairs.json",
+          "src/main/resources/assets/tavaress_additions/models/block/polished_dense_sandstone_stairs_inner.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Deco"
+    },
+    {
+      "name": "PolishedDenseSandstoneSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dense_sandstone_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tavaress_additions/models/block/polished_dense_sandstone_slab_full.json",
+          "src/main/resources/assets/tavaress_additions/models/item/polished_dense_sandstone_slab.json",
+          "src/main/java/net/mcreator/tavaressadditions/block/PolishedDenseSandstoneSlabBlock.java",
+          "src/main/resources/data/tavaress_additions/loot_tables/blocks/polished_dense_sandstone_slab.json",
+          "src/main/resources/assets/tavaress_additions/models/block/polished_dense_sandstone_slab_top.json",
+          "src/main/resources/assets/tavaress_additions/blockstates/polished_dense_sandstone_slab.json",
+          "src/main/resources/assets/tavaress_additions/models/block/polished_dense_sandstone_slab.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Deco"
+    },
+    {
+      "name": "PolishedDenseSandstoneSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dense_sandstone_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/advancements/recipes/polished_dense_sandstone_slab_recipe.json",
+          "src/main/resources/data/tavaress_additions/recipes/polished_dense_sandstone_slab_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
+    },
+    {
+      "name": "PolishedDenseSandstoneStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dense_sandstone_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/recipes/polished_dense_sandstone_stairs_recipe.json",
+          "src/main/resources/data/tavaress_additions/advancements/recipes/polished_dense_sandstone_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
+    },
+    {
+      "name": "DenseSandstoneSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_sandstone_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/advancements/recipes/dense_sandstone_smelting.json",
+          "src/main/resources/data/minecraft/recipes/smooth_sandstone.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
+    },
+    {
+      "name": "PolishedDenseSandstoneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dense_sandstone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/recipes/polished_dense_sandstone_recipe.json",
+          "src/main/resources/data/tavaress_additions/advancements/recipes/polished_dense_sandstone_recipe.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
+    },
+    {
+      "name": "PolishedDenseSandstoneStairsStonecutter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dense_sandstone_stairs_stonecutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/recipes/polished_dense_sandstone_stairs_stonecutter.json",
+          "src/main/resources/data/tavaress_additions/advancements/recipes/polished_dense_sandstone_stairs_stonecutter.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
+    },
+    {
+      "name": "PolishedDenseSandstoneStairsFromDenseSandstoneStonecutter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dense_sandstone_stairs_from_dense_sandstone_stonecutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/advancements/recipes/polished_dense_sandstone_stairs_from_dense_sandstone_stonecutter.json",
+          "src/main/resources/data/tavaress_additions/recipes/polished_dense_sandstone_stairs_from_dense_sandstone_stonecutter.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
+    },
+    {
+      "name": "PolishedDenseSandstoneStonecutter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dense_sandstone_stonecutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/advancements/recipes/polished_dense_sandstone_stonecutter.json",
+          "src/main/resources/data/tavaress_additions/recipes/polished_dense_sandstone_stonecutter.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
+    },
+    {
+      "name": "PolishedDenseSandstoneSlabStonecutter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dense_sandstone_slab_stonecutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/recipes/polished_dense_sandstone_slab_stonecutter.json",
+          "src/main/resources/data/tavaress_additions/advancements/recipes/polished_dense_sandstone_slab_stonecutter.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
+    },
+    {
+      "name": "PolishedDenseSandstoneSlabFromDenseSandstoneStonecutter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dense_sandstone_slab_from_dense_sandstone_stonecutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/advancements/recipes/polished_dense_sandstone_slab_from_dense_sandstone_stonecutter.json",
+          "src/main/resources/data/tavaress_additions/recipes/polished_dense_sandstone_slab_from_dense_sandstone_stonecutter.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
+    },
+    {
+      "name": "ShortDryGrass",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "short_dry_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/worldgen/placed_feature/short_dry_grass.json",
+          "src/main/resources/assets/tavaress_additions/blockstates/short_dry_grass.json",
+          "src/main/java/net/mcreator/tavaressadditions/block/ShortDryGrassBlock.java",
+          "src/main/resources/data/tavaress_additions/forge/biome_modifier/short_dry_grass_biome_modifier.json",
+          "src/main/resources/assets/tavaress_additions/models/item/short_dry_grass.json",
+          "src/main/resources/assets/tavaress_additions/models/block/short_dry_grass.json",
+          "src/main/resources/data/tavaress_additions/worldgen/configured_feature/short_dry_grass.json",
+          "src/main/resources/data/tavaress_additions/loot_tables/blocks/short_dry_grass.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks"
+    },
+    {
+      "name": "TallDryGrass",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_dry_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tavaress_additions/blockstates/tall_dry_grass.json",
+          "src/main/java/net/mcreator/tavaressadditions/block/TallDryGrassBlock.java",
+          "src/main/resources/data/tavaress_additions/forge/biome_modifier/tall_dry_grass_biome_modifier.json",
+          "src/main/resources/data/tavaress_additions/loot_tables/blocks/tall_dry_grass.json",
+          "src/main/resources/assets/tavaress_additions/models/block/tall_dry_grass.json",
+          "src/main/resources/assets/tavaress_additions/models/item/tall_dry_grass.json",
+          "src/main/resources/data/tavaress_additions/worldgen/configured_feature/tall_dry_grass.json",
+          "src/main/resources/data/tavaress_additions/worldgen/placed_feature/tall_dry_grass.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks"
+    },
+    {
+      "name": "ShortDryGrassOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "short_dry_grass_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/tavaressadditions/procedures/ShortDryGrassOnBoneMealSuccessProcedure.java"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Procedure"
+    },
+    {
+      "name": "BiolumenCave",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biolumen_cave",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/worldgen/biome/biolumen_cave.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave"
+    },
+    {
+      "name": "BCCaveWalls",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bc_cave_walls",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tavaress_additions/forge/biome_modifier/bc_cave_walls_biome_modifier.json",
+          "src/main/resources/data/tavaress_additions/worldgen/configured_feature/bc_cave_walls.json",
+          "src/main/resources/data/tavaress_additions/worldgen/placed_feature/bc_cave_walls.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Features"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PolishedDenseSandstoneSlab",
+      "~CUSTOM:PolishedDenseSandstoneStairs",
+      "~CUSTOM:PolishedDenseSandstone",
+      "~CUSTOM:DenseSandstoneWall",
+      "~CUSTOM:DenseSandstoneSlab",
+      "~CUSTOM:DenseSandstoneStairs",
+      "~CUSTOM:DenseSandstone"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:PolishedDenseSandstoneSlab",
+      "~CUSTOM:PolishedDenseSandstoneStairs",
+      "~CUSTOM:PolishedDenseSandstone",
+      "~CUSTOM:DenseSandstoneWall",
+      "~CUSTOM:DenseSandstoneSlab",
+      "~CUSTOM:DenseSandstoneStairs",
+      "~CUSTOM:DenseSandstone"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:PolishedDenseSandstoneStairs",
+      "~CUSTOM:DenseSandstoneStairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:PolishedDenseSandstoneSlab",
+      "~CUSTOM:DenseSandstoneSlab"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~CUSTOM:DenseSandstoneWall"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:TallDryGrass",
+      "~CUSTOM:ShortDryGrass"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item_group.tavaress_additions.tavares_additions_tab": "Tavares\u0027s Additions",
+      "block.tavaress_additions.dense_sandstone": "Dense Sandstone",
+      "block.tavaress_additions.dense_sandstone_stairs": "Dense Sandstone Stairs",
+      "block.tavaress_additions.dense_sandstone_slab": "Dense Sandstone Slab",
+      "block.tavaress_additions.dense_sandstone_wall": "Dense Sandstone Wall",
+      "block.tavaress_additions.polished_dense_sandstone": "Polished Dense Sandstone",
+      "block.tavaress_additions.polished_dense_sandstone_stairs": "Polished Dense Sandstone Stairs",
+      "block.tavaress_additions.polished_dense_sandstone_slab": "Polished Dense Sandstone Slab",
+      "block.tavaress_additions.short_dry_grass": "Short Dry Grass",
+      "block.tavaress_additions.tall_dry_grass": "Short Dry Grass"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/tavaressadditions/init/TavaressAdditionsModBiomes.java",
+      "src/main/java/net/mcreator/tavaressadditions/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/tavaressadditions/init/TavaressAdditionsModBlocks.java",
+      "src/main/java/net/mcreator/tavaressadditions/init/TavaressAdditionsModItems.java",
+      "src/main/java/net/mcreator/tavaressadditions/TavaressAdditionsMod.java",
+      "src/main/java/net/mcreator/tavaressadditions/init/TavaressAdditionsModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/tavaress_additions.mixins.json",
+      "src/main/resources/META-INF/mods.toml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Biomes",
+        "children": [
+          {
+            "name": "Biolumen Cave",
+            "children": [
+              {
+                "name": "Features",
+                "children": []
+              },
+              {
+                "name": "Blocks",
+                "children": [
+                  {
+                    "name": "Deco",
+                    "children": []
+                  },
+                  {
+                    "name": "Recipes",
+                    "children": []
+                  },
+                  {
+                    "name": "Procedure",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "tavaress_additions",
+    "modName": "Tavares\u0027s Additions",
+    "version": "1.0.0",
+    "author": "Tavares",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.tavaressadditions"
+  },
+  "mcreatorVersion": 202600114619
+}

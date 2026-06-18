@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tavares_additions:block/dense_sandstone",
+    "up": "tavares_additions:block/dense_sandstone",
+    "north": "tavares_additions:block/dense_sandstone",
+    "east": "tavares_additions:block/dense_sandstone",
+    "south": "tavares_additions:block/dense_sandstone",
+    "west": "tavares_additions:block/dense_sandstone",
+    "particle": "tavares_additions:block/dense_sandstone"
+  },
+  "render_type": "solid"
+}

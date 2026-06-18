@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "tavares_additions:block/dense_sandstone",
+    "particle": "tavares_additions:block/dense_sandstone"
+  },
+  "render_type": "solid"
+}

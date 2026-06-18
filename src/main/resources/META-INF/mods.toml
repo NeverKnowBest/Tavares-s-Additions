@@ -3,9 +3,9 @@ loaderVersion="[47,)"
 license="Not specified"
 
 [[mods]]
-modId="tavaress_additions"
-version="1.0.0"
-displayName="Tavares's Additions"
+modId="tavares_additions"
+version="0.2.0"
+displayName="Tavares' Additions"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="Tavares"
@@ -13,7 +13,7 @@ authors="Tavares"
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
-[[dependencies.tavaress_additions]]
+[[dependencies.tavares_additions]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.20.1]"

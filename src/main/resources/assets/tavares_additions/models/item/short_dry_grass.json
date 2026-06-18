@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tavares_additions:block/short-dry-grass"
+  }
+}

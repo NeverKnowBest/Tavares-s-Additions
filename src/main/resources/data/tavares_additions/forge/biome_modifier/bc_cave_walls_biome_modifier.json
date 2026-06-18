@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "tavares_additions:biolumen_cave",
+  "features": "tavares_additions:bc_cave_walls",
+  "step": "underground_ores"
+}

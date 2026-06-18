@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "tavares_additions:dense_sandstone"
+  },
+  "result": "tavares_additions:dense_sandstone_slab"
+}

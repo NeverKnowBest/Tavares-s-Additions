@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "tavares_additions:biolumen_cave",
+  "features": "tavares_additions:tall_dry_grass",
+  "step": "vegetal_decoration"
+}

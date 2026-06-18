@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "tavares_additions:block/dense_sandstone",
+    "bottom": "tavares_additions:block/dense_sandstone",
+    "top": "tavares_additions:block/dense_sandstone",
+    "side": "tavares_additions:block/dense_sandstone"
+  },
+  "render_type": "solid"
+}

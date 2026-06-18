@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "tavaress_additions:bettle_nest",
-  "features": "tavaress_additions:bn_cave_walls",
-  "step": "underground_ores"
-}
