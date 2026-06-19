@@ -22,12 +22,12 @@
     },
     {
       "type": "environment_scan",
-      "direction_of_search": "up",
+      "direction_of_search": "down",
       "target_condition": {
         "type": "minecraft:matching_blocks",
         "blocks": "minecraft:air"
       },
-      "max_steps": 4
+      "max_steps": 10
     },
     {
       "type": "minecraft:block_predicate_filter",

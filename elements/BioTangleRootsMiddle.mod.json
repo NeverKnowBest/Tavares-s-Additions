@@ -2,7 +2,7 @@
   "_fv": 85,
   "_type": "block",
   "definition": {
-    "texture": "tangle_roots_animated",
+    "texture": "tangle_roots_plant_animated",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -46,15 +46,11 @@
     "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "hasBlockItem": true,
+    "hasBlockItem": false,
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:TavaresAdditionsTab"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""

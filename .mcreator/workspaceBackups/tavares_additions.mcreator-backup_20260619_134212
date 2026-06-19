@@ -358,14 +358,14 @@
       "registry_name": "short_dry_grass",
       "metadata": {
         "files": [
+          "src/main/resources/data/tavares_additions/loot_tables/blocks/short_dry_grass.json",
           "src/main/resources/assets/tavares_additions/models/item/short_dry_grass.json",
           "src/main/resources/data/tavares_additions/worldgen/placed_feature/short_dry_grass.json",
-          "src/main/resources/assets/tavares_additions/models/block/short_dry_grass.json",
-          "src/main/resources/data/tavares_additions/worldgen/configured_feature/short_dry_grass.json",
           "src/main/java/net/mcreator/tavaresadditions/block/ShortDryGrassBlock.java",
-          "src/main/resources/data/tavares_additions/loot_tables/blocks/short_dry_grass.json",
-          "src/main/resources/assets/tavares_additions/blockstates/short_dry_grass.json",
-          "src/main/resources/data/tavares_additions/forge/biome_modifier/short_dry_grass_biome_modifier.json"
+          "src/main/resources/data/tavares_additions/worldgen/configured_feature/short_dry_grass.json",
+          "src/main/resources/data/tavares_additions/forge/biome_modifier/short_dry_grass_biome_modifier.json",
+          "src/main/resources/assets/tavares_additions/models/block/short_dry_grass.json",
+          "src/main/resources/assets/tavares_additions/blockstates/short_dry_grass.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks"
@@ -378,13 +378,13 @@
       "registry_name": "tall_dry_grass",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavares_additions/forge/biome_modifier/tall_dry_grass_biome_modifier.json",
           "src/main/resources/data/tavares_additions/worldgen/configured_feature/tall_dry_grass.json",
           "src/main/resources/data/tavares_additions/worldgen/placed_feature/tall_dry_grass.json",
           "src/main/resources/assets/tavares_additions/blockstates/tall_dry_grass.json",
+          "src/main/java/net/mcreator/tavaresadditions/block/TallDryGrassBlock.java",
+          "src/main/resources/data/tavares_additions/forge/biome_modifier/tall_dry_grass_biome_modifier.json",
           "src/main/resources/assets/tavares_additions/models/block/tall_dry_grass.json",
           "src/main/resources/data/tavares_additions/loot_tables/blocks/tall_dry_grass.json",
-          "src/main/java/net/mcreator/tavaresadditions/block/TallDryGrassBlock.java",
           "src/main/resources/assets/tavares_additions/models/item/tall_dry_grass.json"
         ]
       },
@@ -533,6 +533,55 @@
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Procedure"
+    },
+    {
+      "name": "BioTangleRootsBlockValidPlacementCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bio_tangle_roots_block_valid_placement_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/tavaresadditions/procedures/BioTangleRootsBlockValidPlacementConditionProcedure.java"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Procedure"
+    },
+    {
+      "name": "BioTangleRoots",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bio_tangle_roots",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tavares_additions/models/block/bio_tangle_roots.json",
+          "src/main/resources/data/tavares_additions/loot_tables/blocks/bio_tangle_roots.json",
+          "src/main/java/net/mcreator/tavaresadditions/block/BioTangleRootsBlock.java",
+          "src/main/resources/assets/tavares_additions/models/item/bio_tangle_roots.json",
+          "src/main/resources/assets/tavares_additions/blockstates/bio_tangle_roots.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks"
     }
   ],
   "variable_elements": [],
@@ -568,6 +617,7 @@
       "~CUSTOM:DenseSandstoneWall"
     ],
     "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:BioTangleRoots",
       "~CUSTOM:TallDryGrass",
       "~CUSTOM:ShortDryGrass"
     ]
@@ -596,7 +646,8 @@
       "block.tavares_additions.polished_dense_sandstone_slab": "Polished Dense Sandstone Slab",
       "block.tavares_additions.short_dry_grass": "Short Dry Grass",
       "block.tavares_additions.tall_dry_grass": "Short Dry Grass",
-      "biome.tavares_additions.biolumen_cave": "Biolumen Cave"
+      "biome.tavares_additions.biolumen_cave": "Biolumen Cave",
+      "block.tavares_additions.bio_tangle_roots": "Bio Tangle Roots"
     }
   },
   "metadata": {
@@ -606,11 +657,11 @@
       "src/main/java/net/mcreator/tavaresadditions/init/TavaresAdditionsModBlocks.java",
       "src/main/java/net/mcreator/tavaresadditions/init/TavaresAdditionsModItems.java",
       "src/main/java/net/mcreator/tavaresadditions/init/TavaresAdditionsModTabs.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/resources/tavares_additions.mixins.json",
       "src/main/java/net/mcreator/tavaresadditions/TavaresAdditionsMod.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/resources/tavares_additions.mixins.json",
-      "src/main/resources/META-INF/mods.toml"
+      "src/main/resources/META-INF/accesstransformer.cfg"
     ]
   },
   "foldersRoot": {

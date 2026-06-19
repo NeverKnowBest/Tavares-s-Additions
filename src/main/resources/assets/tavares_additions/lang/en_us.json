@@ -21,5 +21,7 @@
   "block.tavares_additions.short_dry_grass": "Short Dry Grass",
   "block.tavares_additions.tall_dry_grass": "Short Dry Grass",
   "biome.tavares_additions.biolumen_cave": "Biolumen Cave",
-  "block.tavares_additions.bio_tangle_roots": "Bio Tangle Roots"
+  "block.tavares_additions.bio_tangle_roots": "Bio Tangle Roots",
+  "block.tavares_additions.bio_tangle_roots_middle": "Bio Tangle Roots",
+  "block.tavares_additions.bio_tangle_roots_top": "Bio Tangle Roots"
 }

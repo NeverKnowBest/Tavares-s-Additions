@@ -564,6 +564,23 @@
           "src/main/java/net/mcreator/tavaresadditions/procedures/BioTangleRootsBlockValidPlacementConditionProcedure.java"
         ]
       },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Procedure"
+    },
+    {
+      "name": "BioTangleRoots",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bio_tangle_roots",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tavares_additions/models/block/bio_tangle_roots.json",
+          "src/main/resources/data/tavares_additions/loot_tables/blocks/bio_tangle_roots.json",
+          "src/main/java/net/mcreator/tavaresadditions/block/BioTangleRootsBlock.java",
+          "src/main/resources/assets/tavares_additions/models/item/bio_tangle_roots.json",
+          "src/main/resources/assets/tavares_additions/blockstates/bio_tangle_roots.json"
+        ]
+      },
       "path": "~/Biomes/Biolumen Cave/Blocks"
     }
   ],
@@ -600,6 +617,7 @@
       "~CUSTOM:DenseSandstoneWall"
     ],
     "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:BioTangleRoots",
       "~CUSTOM:TallDryGrass",
       "~CUSTOM:ShortDryGrass"
     ]
@@ -628,7 +646,8 @@
       "block.tavares_additions.polished_dense_sandstone_slab": "Polished Dense Sandstone Slab",
       "block.tavares_additions.short_dry_grass": "Short Dry Grass",
       "block.tavares_additions.tall_dry_grass": "Short Dry Grass",
-      "biome.tavares_additions.biolumen_cave": "Biolumen Cave"
+      "biome.tavares_additions.biolumen_cave": "Biolumen Cave",
+      "block.tavares_additions.bio_tangle_roots": "Bio Tangle Roots"
     }
   },
   "metadata": {
@@ -638,11 +657,11 @@
       "src/main/java/net/mcreator/tavaresadditions/init/TavaresAdditionsModBlocks.java",
       "src/main/java/net/mcreator/tavaresadditions/init/TavaresAdditionsModItems.java",
       "src/main/java/net/mcreator/tavaresadditions/init/TavaresAdditionsModTabs.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/resources/tavares_additions.mixins.json",
       "src/main/java/net/mcreator/tavaresadditions/TavaresAdditionsMod.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/resources/tavares_additions.mixins.json",
-      "src/main/resources/META-INF/mods.toml"
+      "src/main/resources/META-INF/accesstransformer.cfg"
     ]
   },
   "foldersRoot": {

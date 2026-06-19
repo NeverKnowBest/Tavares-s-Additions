@@ -1,20 +1,4 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "tavares_additions:blocks/bio_tangle_roots",
-  "pools": [
-    {
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "tavares_additions:bio_tangle_roots"
-        }
-      ]
-    }
-  ]
+  "random_sequence": "tavares_additions:blocks/bio_tangle_roots"
 }
