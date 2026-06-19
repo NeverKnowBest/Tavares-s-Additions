@@ -44,9 +44,9 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 mixin {
-    if (file("src/main/resources/tavaress_additions.mixins.json").exists()) {
-        add sourceSets.main, "tavaress_additions.refmap.json"
-        config "tavaress_additions.mixins.json"
+    if (file("src/main/resources/tavares_additions.mixins.json").exists()) {
+        add sourceSets.main, "tavares_additions.refmap.json"
+        config "tavares_additions.mixins.json"
     }
 }
 
@@ -57,9 +57,9 @@ dependencies {
 }
 
 jar {
-    if (file("src/main/resources/tavaress_additions.mixins.json").exists()) {
+    if (file("src/main/resources/tavares_additions.mixins.json").exists()) {
         manifest.attributes([
-                "MixinConfigs": "tavaress_additions.mixins.json"
+                "MixinConfigs": "tavares_additions.mixins.json"
         ])
     }
 }

@@ -378,13 +378,13 @@
       "registry_name": "tall_dry_grass",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavares_additions/forge/biome_modifier/tall_dry_grass_biome_modifier.json",
           "src/main/resources/data/tavares_additions/worldgen/configured_feature/tall_dry_grass.json",
           "src/main/resources/data/tavares_additions/worldgen/placed_feature/tall_dry_grass.json",
           "src/main/resources/assets/tavares_additions/blockstates/tall_dry_grass.json",
+          "src/main/java/net/mcreator/tavaresadditions/block/TallDryGrassBlock.java",
+          "src/main/resources/data/tavares_additions/forge/biome_modifier/tall_dry_grass_biome_modifier.json",
           "src/main/resources/assets/tavares_additions/models/block/tall_dry_grass.json",
           "src/main/resources/data/tavares_additions/loot_tables/blocks/tall_dry_grass.json",
-          "src/main/java/net/mcreator/tavaresadditions/block/TallDryGrassBlock.java",
           "src/main/resources/assets/tavares_additions/models/item/tall_dry_grass.json"
         ]
       },
@@ -533,6 +533,23 @@
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Procedure"
+    },
+    {
+      "name": "TangleRootsBio",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tangle_roots_bio",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tavaresadditions/block/TangleRootsBioBlock.java",
+          "src/main/resources/data/tavares_additions/loot_tables/blocks/tangle_roots_bio.json",
+          "src/main/resources/assets/tavares_additions/models/item/tangle_roots_bio.json",
+          "src/main/resources/assets/tavares_additions/blockstates/tangle_roots_bio.json",
+          "src/main/resources/assets/tavares_additions/models/block/tangle_roots_bio.json"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks"
     }
   ],
   "variable_elements": [],
@@ -586,7 +603,7 @@
       "block.tavaress_additions.short_dry_grass": "Short Dry Grass",
       "block.tavaress_additions.tall_dry_grass": "Short Dry Grass",
       "biome.tavaress_additions.biolumen_cave": "Biolumen Cave",
-      "item_group.tavares_additions.tavares_additions_tab": "Tavares\u0027s Additions",
+      "item_group.tavares_additions.tavares_additions_tab": "Tavares\u0027 Additions",
       "block.tavares_additions.dense_sandstone": "Dense Sandstone",
       "block.tavares_additions.dense_sandstone_stairs": "Dense Sandstone Stairs",
       "block.tavares_additions.dense_sandstone_slab": "Dense Sandstone Slab",
@@ -596,7 +613,8 @@
       "block.tavares_additions.polished_dense_sandstone_slab": "Polished Dense Sandstone Slab",
       "block.tavares_additions.short_dry_grass": "Short Dry Grass",
       "block.tavares_additions.tall_dry_grass": "Short Dry Grass",
-      "biome.tavares_additions.biolumen_cave": "Biolumen Cave"
+      "biome.tavares_additions.biolumen_cave": "Biolumen Cave",
+      "block.tavares_additions.tangle_roots_bio": "Tangle Roots Bio"
     }
   },
   "metadata": {
@@ -606,10 +624,10 @@
       "src/main/java/net/mcreator/tavaresadditions/init/TavaresAdditionsModBlocks.java",
       "src/main/java/net/mcreator/tavaresadditions/init/TavaresAdditionsModItems.java",
       "src/main/java/net/mcreator/tavaresadditions/init/TavaresAdditionsModTabs.java",
-      "src/main/resources/tavares_additions.mixins.json",
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/tavaresadditions/TavaresAdditionsMod.java",
       "src/main/resources/pack.mcmeta",
+      "src/main/resources/tavares_additions.mixins.json",
       "src/main/resources/META-INF/mods.toml"
     ]
   },
@@ -653,7 +671,9 @@
     "modid": "tavares_additions",
     "modName": "Tavares\u0027 Additions",
     "version": "0.2.0",
+    "description": "Adding things that i want",
     "author": "Tavares",
+    "websiteURL": "https://github.com/NeverKnowBest/Tavares-Additions",
     "license": "Not specified",
     "serverSideOnly": false,
     "requiredMods": [],
@@ -661,6 +681,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Tavares",
     "modElementsPackage": "net.mcreator.tavaresadditions"
   },
   "mcreatorVersion": 202600114619

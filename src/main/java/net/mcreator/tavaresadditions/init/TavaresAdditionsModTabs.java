@@ -26,5 +26,6 @@ public class TavaresAdditionsModTabs {
 				tabData.accept(TavaresAdditionsModBlocks.POLISHED_DENSE_SANDSTONE_SLAB.get().asItem());
 				tabData.accept(TavaresAdditionsModBlocks.SHORT_DRY_GRASS.get().asItem());
 				tabData.accept(TavaresAdditionsModBlocks.TALL_DRY_GRASS.get().asItem());
+				tabData.accept(TavaresAdditionsModBlocks.BIO_TANGLE_ROOTS.get().asItem());
 			}).build());
 }

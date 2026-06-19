@@ -77,7 +77,7 @@ public class ShortDryGrassBlock extends FlowerBlock implements BonemealableBlock
 
 	@Override
 	public PlantType getPlantType(BlockGetter world, BlockPos pos) {
-		return PlantType.DESERT;
+		return PlantType.CAVE;
 	}
 
 	@Override

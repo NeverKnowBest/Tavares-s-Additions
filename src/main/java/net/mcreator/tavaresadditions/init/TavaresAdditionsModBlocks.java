@@ -23,6 +23,7 @@ public class TavaresAdditionsModBlocks {
 	public static final RegistryObject<Block> POLISHED_DENSE_SANDSTONE_SLAB;
 	public static final RegistryObject<Block> SHORT_DRY_GRASS;
 	public static final RegistryObject<Block> TALL_DRY_GRASS;
+	public static final RegistryObject<Block> BIO_TANGLE_ROOTS;
 	static {
 		DENSE_SANDSTONE = REGISTRY.register("dense_sandstone", DenseSandstoneBlock::new);
 		DENSE_SANDSTONE_STAIRS = REGISTRY.register("dense_sandstone_stairs", DenseSandstoneStairsBlock::new);
@@ -33,6 +34,7 @@ public class TavaresAdditionsModBlocks {
 		POLISHED_DENSE_SANDSTONE_SLAB = REGISTRY.register("polished_dense_sandstone_slab", PolishedDenseSandstoneSlabBlock::new);
 		SHORT_DRY_GRASS = REGISTRY.register("short_dry_grass", ShortDryGrassBlock::new);
 		TALL_DRY_GRASS = REGISTRY.register("tall_dry_grass", TallDryGrassBlock::new);
+		BIO_TANGLE_ROOTS = REGISTRY.register("bio_tangle_roots", BioTangleRootsBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

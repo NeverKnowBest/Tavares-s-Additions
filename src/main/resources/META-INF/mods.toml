@@ -6,9 +6,10 @@ license="Not specified"
 modId="tavares_additions"
 version="0.2.0"
 displayName="Tavares' Additions"
-displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://github.com/NeverKnowBest/Tavares-Additions"
+credits="Tavares"
 authors="Tavares"
+description="Adding things that i want"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

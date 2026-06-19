@@ -18,11 +18,11 @@
       "registry_name": "dense_sandstone",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/loot_tables/blocks/dense_sandstone.json",
-          "src/main/resources/assets/tavaress_additions/models/item/dense_sandstone.json",
-          "src/main/java/net/mcreator/tavaressadditions/block/DenseSandstoneBlock.java",
-          "src/main/resources/assets/tavaress_additions/blockstates/dense_sandstone.json",
-          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone.json"
+          "src/main/resources/assets/tavares_additions/models/item/dense_sandstone.json",
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone.json",
+          "src/main/resources/assets/tavares_additions/blockstates/dense_sandstone.json",
+          "src/main/java/net/mcreator/tavaresadditions/block/DenseSandstoneBlock.java",
+          "src/main/resources/data/tavares_additions/loot_tables/blocks/dense_sandstone.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks"
@@ -35,13 +35,13 @@
       "registry_name": "dense_sandstone_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/loot_tables/blocks/dense_sandstone_stairs.json",
-          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_stairs.json",
-          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_stairs_inner.json",
-          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_stairs_outer.json",
-          "src/main/resources/assets/tavaress_additions/blockstates/dense_sandstone_stairs.json",
-          "src/main/java/net/mcreator/tavaressadditions/block/DenseSandstoneStairsBlock.java",
-          "src/main/resources/assets/tavaress_additions/models/item/dense_sandstone_stairs.json"
+          "src/main/java/net/mcreator/tavaresadditions/block/DenseSandstoneStairsBlock.java",
+          "src/main/resources/assets/tavares_additions/models/item/dense_sandstone_stairs.json",
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_stairs.json",
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_stairs_inner.json",
+          "src/main/resources/data/tavares_additions/loot_tables/blocks/dense_sandstone_stairs.json",
+          "src/main/resources/assets/tavares_additions/blockstates/dense_sandstone_stairs.json",
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_stairs_outer.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Deco"
@@ -54,13 +54,13 @@
       "registry_name": "dense_sandstone_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_slab.json",
-          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_slab_top.json",
-          "src/main/java/net/mcreator/tavaressadditions/block/DenseSandstoneSlabBlock.java",
-          "src/main/resources/data/tavaress_additions/loot_tables/blocks/dense_sandstone_slab.json",
-          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_slab_full.json",
-          "src/main/resources/assets/tavaress_additions/models/item/dense_sandstone_slab.json",
-          "src/main/resources/assets/tavaress_additions/blockstates/dense_sandstone_slab.json"
+          "src/main/resources/data/tavares_additions/loot_tables/blocks/dense_sandstone_slab.json",
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_slab.json",
+          "src/main/java/net/mcreator/tavaresadditions/block/DenseSandstoneSlabBlock.java",
+          "src/main/resources/assets/tavares_additions/blockstates/dense_sandstone_slab.json",
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_slab_top.json",
+          "src/main/resources/assets/tavares_additions/models/item/dense_sandstone_slab.json",
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_slab_full.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Deco"
@@ -73,14 +73,14 @@
       "registry_name": "dense_sandstone_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_wall_inventory.json",
-          "src/main/java/net/mcreator/tavaressadditions/block/DenseSandstoneWallBlock.java",
-          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_wall_side_tall.json",
-          "src/main/resources/data/tavaress_additions/loot_tables/blocks/dense_sandstone_wall.json",
-          "src/main/resources/assets/tavaress_additions/blockstates/dense_sandstone_wall.json",
-          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_wall.json",
-          "src/main/resources/assets/tavaress_additions/models/block/dense_sandstone_wall_post.json",
-          "src/main/resources/assets/tavaress_additions/models/item/dense_sandstone_wall.json"
+          "src/main/java/net/mcreator/tavaresadditions/block/DenseSandstoneWallBlock.java",
+          "src/main/resources/assets/tavares_additions/models/item/dense_sandstone_wall.json",
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_wall.json",
+          "src/main/resources/assets/tavares_additions/blockstates/dense_sandstone_wall.json",
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_wall_side_tall.json",
+          "src/main/resources/data/tavares_additions/loot_tables/blocks/dense_sandstone_wall.json",
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_wall_inventory.json",
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_wall_post.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Deco"
@@ -93,8 +93,8 @@
       "registry_name": "dense_sandstone_stairs_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/advancements/recipes/dense_sandstone_stairs_recipe.json",
-          "src/main/resources/data/tavaress_additions/recipes/dense_sandstone_stairs_recipe.json"
+          "src/main/resources/data/tavares_additions/recipes/dense_sandstone_stairs_recipe.json",
+          "src/main/resources/data/tavares_additions/advancements/recipes/dense_sandstone_stairs_recipe.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
@@ -107,8 +107,8 @@
       "registry_name": "dense_sandstone_slab_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/advancements/recipes/dense_sandstone_slab_recipe.json",
-          "src/main/resources/data/tavaress_additions/recipes/dense_sandstone_slab_recipe.json"
+          "src/main/resources/data/tavares_additions/advancements/recipes/dense_sandstone_slab_recipe.json",
+          "src/main/resources/data/tavares_additions/recipes/dense_sandstone_slab_recipe.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
@@ -121,8 +121,8 @@
       "registry_name": "dense_sandstone_wall_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/advancements/recipes/dense_sandstone_wall_recipe.json",
-          "src/main/resources/data/tavaress_additions/recipes/dense_sandstone_wall_recipe.json"
+          "src/main/resources/data/tavares_additions/recipes/dense_sandstone_wall_recipe.json",
+          "src/main/resources/data/tavares_additions/advancements/recipes/dense_sandstone_wall_recipe.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
@@ -135,8 +135,8 @@
       "registry_name": "dense_sandstone_stairs_stonecutter",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/advancements/recipes/dense_sandstone_stairs_stonecutter.json",
-          "src/main/resources/data/tavaress_additions/recipes/dense_sandstone_stairs_stonecutter.json"
+          "src/main/resources/data/tavares_additions/advancements/recipes/dense_sandstone_stairs_stonecutter.json",
+          "src/main/resources/data/tavares_additions/recipes/dense_sandstone_stairs_stonecutter.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
@@ -149,8 +149,8 @@
       "registry_name": "dense_sandstone_slab_stonecutter",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/recipes/dense_sandstone_slab_stonecutter.json",
-          "src/main/resources/data/tavaress_additions/advancements/recipes/dense_sandstone_slab_stonecutter.json"
+          "src/main/resources/data/tavares_additions/advancements/recipes/dense_sandstone_slab_stonecutter.json",
+          "src/main/resources/data/tavares_additions/recipes/dense_sandstone_slab_stonecutter.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
@@ -163,8 +163,8 @@
       "registry_name": "dense_sandstone_wall_stonecutter",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/advancements/recipes/dense_sandstone_wall_stonecutter.json",
-          "src/main/resources/data/tavaress_additions/recipes/dense_sandstone_wall_stonecutter.json"
+          "src/main/resources/data/tavares_additions/recipes/dense_sandstone_wall_stonecutter.json",
+          "src/main/resources/data/tavares_additions/advancements/recipes/dense_sandstone_wall_stonecutter.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
@@ -177,11 +177,11 @@
       "registry_name": "polished_dense_sandstone",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/loot_tables/blocks/polished_dense_sandstone.json",
-          "src/main/resources/assets/tavaress_additions/models/block/polished_dense_sandstone.json",
-          "src/main/resources/assets/tavaress_additions/models/item/polished_dense_sandstone.json",
-          "src/main/java/net/mcreator/tavaressadditions/block/PolishedDenseSandstoneBlock.java",
-          "src/main/resources/assets/tavaress_additions/blockstates/polished_dense_sandstone.json"
+          "src/main/resources/data/tavares_additions/loot_tables/blocks/polished_dense_sandstone.json",
+          "src/main/resources/assets/tavares_additions/blockstates/polished_dense_sandstone.json",
+          "src/main/resources/assets/tavares_additions/models/item/polished_dense_sandstone.json",
+          "src/main/java/net/mcreator/tavaresadditions/block/PolishedDenseSandstoneBlock.java",
+          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Deco"
@@ -194,13 +194,13 @@
       "registry_name": "polished_dense_sandstone_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tavaress_additions/models/item/polished_dense_sandstone_stairs.json",
-          "src/main/resources/assets/tavaress_additions/models/block/polished_dense_sandstone_stairs_outer.json",
-          "src/main/java/net/mcreator/tavaressadditions/block/PolishedDenseSandstoneStairsBlock.java",
-          "src/main/resources/assets/tavaress_additions/models/block/polished_dense_sandstone_stairs.json",
-          "src/main/resources/data/tavaress_additions/loot_tables/blocks/polished_dense_sandstone_stairs.json",
-          "src/main/resources/assets/tavaress_additions/blockstates/polished_dense_sandstone_stairs.json",
-          "src/main/resources/assets/tavaress_additions/models/block/polished_dense_sandstone_stairs_inner.json"
+          "src/main/java/net/mcreator/tavaresadditions/block/PolishedDenseSandstoneStairsBlock.java",
+          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone_stairs_outer.json",
+          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone_stairs.json",
+          "src/main/resources/assets/tavares_additions/blockstates/polished_dense_sandstone_stairs.json",
+          "src/main/resources/assets/tavares_additions/models/item/polished_dense_sandstone_stairs.json",
+          "src/main/resources/data/tavares_additions/loot_tables/blocks/polished_dense_sandstone_stairs.json",
+          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone_stairs_inner.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Deco"
@@ -213,13 +213,13 @@
       "registry_name": "polished_dense_sandstone_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tavaress_additions/models/block/polished_dense_sandstone_slab_full.json",
-          "src/main/resources/assets/tavaress_additions/models/item/polished_dense_sandstone_slab.json",
-          "src/main/java/net/mcreator/tavaressadditions/block/PolishedDenseSandstoneSlabBlock.java",
-          "src/main/resources/data/tavaress_additions/loot_tables/blocks/polished_dense_sandstone_slab.json",
-          "src/main/resources/assets/tavaress_additions/models/block/polished_dense_sandstone_slab_top.json",
-          "src/main/resources/assets/tavaress_additions/blockstates/polished_dense_sandstone_slab.json",
-          "src/main/resources/assets/tavaress_additions/models/block/polished_dense_sandstone_slab.json"
+          "src/main/resources/assets/tavares_additions/blockstates/polished_dense_sandstone_slab.json",
+          "src/main/resources/assets/tavares_additions/models/item/polished_dense_sandstone_slab.json",
+          "src/main/resources/data/tavares_additions/loot_tables/blocks/polished_dense_sandstone_slab.json",
+          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone_slab_full.json",
+          "src/main/java/net/mcreator/tavaresadditions/block/PolishedDenseSandstoneSlabBlock.java",
+          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone_slab.json",
+          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone_slab_top.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Deco"
@@ -232,8 +232,8 @@
       "registry_name": "polished_dense_sandstone_slab_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/advancements/recipes/polished_dense_sandstone_slab_recipe.json",
-          "src/main/resources/data/tavaress_additions/recipes/polished_dense_sandstone_slab_recipe.json"
+          "src/main/resources/data/tavares_additions/recipes/polished_dense_sandstone_slab_recipe.json",
+          "src/main/resources/data/tavares_additions/advancements/recipes/polished_dense_sandstone_slab_recipe.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
@@ -246,8 +246,8 @@
       "registry_name": "polished_dense_sandstone_stairs_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/recipes/polished_dense_sandstone_stairs_recipe.json",
-          "src/main/resources/data/tavaress_additions/advancements/recipes/polished_dense_sandstone_stairs_recipe.json"
+          "src/main/resources/data/tavares_additions/recipes/polished_dense_sandstone_stairs_recipe.json",
+          "src/main/resources/data/tavares_additions/advancements/recipes/polished_dense_sandstone_stairs_recipe.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
@@ -260,7 +260,7 @@
       "registry_name": "dense_sandstone_smelting",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/advancements/recipes/dense_sandstone_smelting.json",
+          "src/main/resources/data/tavares_additions/advancements/recipes/dense_sandstone_smelting.json",
           "src/main/resources/data/minecraft/recipes/smooth_sandstone.json"
         ]
       },
@@ -274,8 +274,8 @@
       "registry_name": "polished_dense_sandstone_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/recipes/polished_dense_sandstone_recipe.json",
-          "src/main/resources/data/tavaress_additions/advancements/recipes/polished_dense_sandstone_recipe.json"
+          "src/main/resources/data/tavares_additions/advancements/recipes/polished_dense_sandstone_recipe.json",
+          "src/main/resources/data/tavares_additions/recipes/polished_dense_sandstone_recipe.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
@@ -288,8 +288,8 @@
       "registry_name": "polished_dense_sandstone_stairs_stonecutter",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/recipes/polished_dense_sandstone_stairs_stonecutter.json",
-          "src/main/resources/data/tavaress_additions/advancements/recipes/polished_dense_sandstone_stairs_stonecutter.json"
+          "src/main/resources/data/tavares_additions/recipes/polished_dense_sandstone_stairs_stonecutter.json",
+          "src/main/resources/data/tavares_additions/advancements/recipes/polished_dense_sandstone_stairs_stonecutter.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
@@ -302,8 +302,8 @@
       "registry_name": "polished_dense_sandstone_stairs_from_dense_sandstone_stonecutter",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/advancements/recipes/polished_dense_sandstone_stairs_from_dense_sandstone_stonecutter.json",
-          "src/main/resources/data/tavaress_additions/recipes/polished_dense_sandstone_stairs_from_dense_sandstone_stonecutter.json"
+          "src/main/resources/data/tavares_additions/recipes/polished_dense_sandstone_stairs_from_dense_sandstone_stonecutter.json",
+          "src/main/resources/data/tavares_additions/advancements/recipes/polished_dense_sandstone_stairs_from_dense_sandstone_stonecutter.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
@@ -316,8 +316,8 @@
       "registry_name": "polished_dense_sandstone_stonecutter",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/advancements/recipes/polished_dense_sandstone_stonecutter.json",
-          "src/main/resources/data/tavaress_additions/recipes/polished_dense_sandstone_stonecutter.json"
+          "src/main/resources/data/tavares_additions/recipes/polished_dense_sandstone_stonecutter.json",
+          "src/main/resources/data/tavares_additions/advancements/recipes/polished_dense_sandstone_stonecutter.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
@@ -330,8 +330,8 @@
       "registry_name": "polished_dense_sandstone_slab_stonecutter",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/recipes/polished_dense_sandstone_slab_stonecutter.json",
-          "src/main/resources/data/tavaress_additions/advancements/recipes/polished_dense_sandstone_slab_stonecutter.json"
+          "src/main/resources/data/tavares_additions/advancements/recipes/polished_dense_sandstone_slab_stonecutter.json",
+          "src/main/resources/data/tavares_additions/recipes/polished_dense_sandstone_slab_stonecutter.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
@@ -344,8 +344,8 @@
       "registry_name": "polished_dense_sandstone_slab_from_dense_sandstone_stonecutter",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/advancements/recipes/polished_dense_sandstone_slab_from_dense_sandstone_stonecutter.json",
-          "src/main/resources/data/tavaress_additions/recipes/polished_dense_sandstone_slab_from_dense_sandstone_stonecutter.json"
+          "src/main/resources/data/tavares_additions/advancements/recipes/polished_dense_sandstone_slab_from_dense_sandstone_stonecutter.json",
+          "src/main/resources/data/tavares_additions/recipes/polished_dense_sandstone_slab_from_dense_sandstone_stonecutter.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Recipes"
@@ -358,14 +358,14 @@
       "registry_name": "short_dry_grass",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/worldgen/placed_feature/short_dry_grass.json",
-          "src/main/resources/assets/tavaress_additions/blockstates/short_dry_grass.json",
-          "src/main/java/net/mcreator/tavaressadditions/block/ShortDryGrassBlock.java",
-          "src/main/resources/data/tavaress_additions/forge/biome_modifier/short_dry_grass_biome_modifier.json",
-          "src/main/resources/assets/tavaress_additions/models/item/short_dry_grass.json",
-          "src/main/resources/assets/tavaress_additions/models/block/short_dry_grass.json",
-          "src/main/resources/data/tavaress_additions/worldgen/configured_feature/short_dry_grass.json",
-          "src/main/resources/data/tavaress_additions/loot_tables/blocks/short_dry_grass.json"
+          "src/main/resources/data/tavares_additions/loot_tables/blocks/short_dry_grass.json",
+          "src/main/resources/assets/tavares_additions/models/item/short_dry_grass.json",
+          "src/main/resources/data/tavares_additions/worldgen/placed_feature/short_dry_grass.json",
+          "src/main/java/net/mcreator/tavaresadditions/block/ShortDryGrassBlock.java",
+          "src/main/resources/data/tavares_additions/worldgen/configured_feature/short_dry_grass.json",
+          "src/main/resources/data/tavares_additions/forge/biome_modifier/short_dry_grass_biome_modifier.json",
+          "src/main/resources/assets/tavares_additions/models/block/short_dry_grass.json",
+          "src/main/resources/assets/tavares_additions/blockstates/short_dry_grass.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks"
@@ -378,14 +378,14 @@
       "registry_name": "tall_dry_grass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tavaress_additions/blockstates/tall_dry_grass.json",
-          "src/main/java/net/mcreator/tavaressadditions/block/TallDryGrassBlock.java",
-          "src/main/resources/data/tavaress_additions/forge/biome_modifier/tall_dry_grass_biome_modifier.json",
-          "src/main/resources/data/tavaress_additions/loot_tables/blocks/tall_dry_grass.json",
-          "src/main/resources/assets/tavaress_additions/models/block/tall_dry_grass.json",
-          "src/main/resources/assets/tavaress_additions/models/item/tall_dry_grass.json",
-          "src/main/resources/data/tavaress_additions/worldgen/configured_feature/tall_dry_grass.json",
-          "src/main/resources/data/tavaress_additions/worldgen/placed_feature/tall_dry_grass.json"
+          "src/main/resources/data/tavares_additions/worldgen/configured_feature/tall_dry_grass.json",
+          "src/main/resources/data/tavares_additions/worldgen/placed_feature/tall_dry_grass.json",
+          "src/main/resources/assets/tavares_additions/blockstates/tall_dry_grass.json",
+          "src/main/java/net/mcreator/tavaresadditions/block/TallDryGrassBlock.java",
+          "src/main/resources/data/tavares_additions/forge/biome_modifier/tall_dry_grass_biome_modifier.json",
+          "src/main/resources/assets/tavares_additions/models/block/tall_dry_grass.json",
+          "src/main/resources/data/tavares_additions/loot_tables/blocks/tall_dry_grass.json",
+          "src/main/resources/assets/tavares_additions/models/item/tall_dry_grass.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks"
@@ -416,7 +416,7 @@
           }
         ],
         "files": [
-          "src/main/java/net/mcreator/tavaressadditions/procedures/ShortDryGrassOnBoneMealSuccessProcedure.java"
+          "src/main/java/net/mcreator/tavaresadditions/procedures/ShortDryGrassOnBoneMealSuccessProcedure.java"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Procedure"
@@ -429,7 +429,7 @@
       "registry_name": "biolumen_cave",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/worldgen/biome/biolumen_cave.json"
+          "src/main/resources/data/tavares_additions/worldgen/biome/biolumen_cave.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave"
@@ -442,9 +442,9 @@
       "registry_name": "bc_cave_walls",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/forge/biome_modifier/bc_cave_walls_biome_modifier.json",
-          "src/main/resources/data/tavaress_additions/worldgen/configured_feature/bc_cave_walls.json",
-          "src/main/resources/data/tavaress_additions/worldgen/placed_feature/bc_cave_walls.json"
+          "src/main/resources/data/tavares_additions/worldgen/configured_feature/bc_cave_walls.json",
+          "src/main/resources/data/tavares_additions/worldgen/placed_feature/bc_cave_walls.json",
+          "src/main/resources/data/tavares_additions/forge/biome_modifier/bc_cave_walls_biome_modifier.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Features"
@@ -457,9 +457,9 @@
       "registry_name": "bc_hanging_roots",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavaress_additions/worldgen/placed_feature/bc_hanging_roots.json",
-          "src/main/resources/data/tavaress_additions/forge/biome_modifier/bc_hanging_roots_biome_modifier.json",
-          "src/main/resources/data/tavaress_additions/worldgen/configured_feature/bc_hanging_roots.json"
+          "src/main/resources/data/tavares_additions/forge/biome_modifier/bc_hanging_roots_biome_modifier.json",
+          "src/main/resources/data/tavares_additions/worldgen/configured_feature/bc_hanging_roots.json",
+          "src/main/resources/data/tavares_additions/worldgen/placed_feature/bc_hanging_roots.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Features"
@@ -494,7 +494,7 @@
           }
         ],
         "files": [
-          "src/main/java/net/mcreator/tavaressadditions/procedures/ShortDryGrassPlantDestroyedByPlayerProcedure.java"
+          "src/main/java/net/mcreator/tavaresadditions/procedures/ShortDryGrassPlantDestroyedByPlayerProcedure.java"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Procedure"
@@ -529,7 +529,7 @@
           }
         ],
         "files": [
-          "src/main/java/net/mcreator/tavaressadditions/procedures/TallDryGrassPlantDestroyedByPlayerProcedure.java"
+          "src/main/java/net/mcreator/tavaresadditions/procedures/TallDryGrassPlantDestroyedByPlayerProcedure.java"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Procedure"
@@ -585,20 +585,31 @@
       "block.tavaress_additions.polished_dense_sandstone_slab": "Polished Dense Sandstone Slab",
       "block.tavaress_additions.short_dry_grass": "Short Dry Grass",
       "block.tavaress_additions.tall_dry_grass": "Short Dry Grass",
-      "biome.tavaress_additions.biolumen_cave": "Biolumen Cave"
+      "biome.tavaress_additions.biolumen_cave": "Biolumen Cave",
+      "item_group.tavares_additions.tavares_additions_tab": "Tavares\u0027 Additions",
+      "block.tavares_additions.dense_sandstone": "Dense Sandstone",
+      "block.tavares_additions.dense_sandstone_stairs": "Dense Sandstone Stairs",
+      "block.tavares_additions.dense_sandstone_slab": "Dense Sandstone Slab",
+      "block.tavares_additions.dense_sandstone_wall": "Dense Sandstone Wall",
+      "block.tavares_additions.polished_dense_sandstone": "Polished Dense Sandstone",
+      "block.tavares_additions.polished_dense_sandstone_stairs": "Polished Dense Sandstone Stairs",
+      "block.tavares_additions.polished_dense_sandstone_slab": "Polished Dense Sandstone Slab",
+      "block.tavares_additions.short_dry_grass": "Short Dry Grass",
+      "block.tavares_additions.tall_dry_grass": "Short Dry Grass",
+      "biome.tavares_additions.biolumen_cave": "Biolumen Cave"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/tavaressadditions/init/TavaressAdditionsModBiomes.java",
-      "src/main/java/net/mcreator/tavaressadditions/mixin/NoiseGeneratorSettingsMixin.java",
-      "src/main/java/net/mcreator/tavaressadditions/init/TavaressAdditionsModBlocks.java",
-      "src/main/java/net/mcreator/tavaressadditions/init/TavaressAdditionsModItems.java",
-      "src/main/java/net/mcreator/tavaressadditions/TavaressAdditionsMod.java",
-      "src/main/java/net/mcreator/tavaressadditions/init/TavaressAdditionsModTabs.java",
+      "src/main/java/net/mcreator/tavaresadditions/init/TavaresAdditionsModBiomes.java",
+      "src/main/java/net/mcreator/tavaresadditions/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/tavaresadditions/init/TavaresAdditionsModBlocks.java",
+      "src/main/java/net/mcreator/tavaresadditions/init/TavaresAdditionsModItems.java",
+      "src/main/java/net/mcreator/tavaresadditions/init/TavaresAdditionsModTabs.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/tavaresadditions/TavaresAdditionsMod.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/resources/tavaress_additions.mixins.json",
+      "src/main/resources/tavares_additions.mixins.json",
       "src/main/resources/META-INF/mods.toml"
     ]
   },
@@ -639,11 +650,12 @@
     ]
   },
   "workspaceSettings": {
-    "modid": "tavaress_additions",
-    "modName": "Tavares\u0027s Additions",
-    "version": "1.0.0",
+    "modid": "tavares_additions",
+    "modName": "Tavares\u0027 Additions",
+    "version": "0.2.0",
+    "description": "Adding things that i want",
     "author": "Tavares",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://github.com/NeverKnowBest/Tavares-Additions",
     "license": "Not specified",
     "serverSideOnly": false,
     "requiredMods": [],
@@ -651,8 +663,8 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.tavaressadditions"
+    "credits": "Tavares",
+    "modElementsPackage": "net.mcreator.tavaresadditions"
   },
   "mcreatorVersion": 202600114619
 }

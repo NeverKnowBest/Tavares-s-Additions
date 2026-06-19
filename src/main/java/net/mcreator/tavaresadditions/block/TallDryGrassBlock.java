@@ -73,7 +73,7 @@ public class TallDryGrassBlock extends FlowerBlock {
 
 	@Override
 	public PlantType getPlantType(BlockGetter world, BlockPos pos) {
-		return PlantType.DESERT;
+		return PlantType.CAVE;
 	}
 
 	@Override

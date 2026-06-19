@@ -25,7 +25,7 @@
       null,
       null
     ],
-    "growapableSpawnType": "Desert",
+    "growapableSpawnType": "Cave",
     "growapableMaxHeight": 0,
     "customBoundingBox": true,
     "disableOffset": false,

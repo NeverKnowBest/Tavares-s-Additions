@@ -24,6 +24,7 @@ public class TavaresAdditionsModItems {
 	public static final RegistryObject<Item> POLISHED_DENSE_SANDSTONE_SLAB;
 	public static final RegistryObject<Item> SHORT_DRY_GRASS;
 	public static final RegistryObject<Item> TALL_DRY_GRASS;
+	public static final RegistryObject<Item> BIO_TANGLE_ROOTS;
 	static {
 		DENSE_SANDSTONE = block(TavaresAdditionsModBlocks.DENSE_SANDSTONE);
 		DENSE_SANDSTONE_STAIRS = block(TavaresAdditionsModBlocks.DENSE_SANDSTONE_STAIRS);
@@ -34,6 +35,7 @@ public class TavaresAdditionsModItems {
 		POLISHED_DENSE_SANDSTONE_SLAB = block(TavaresAdditionsModBlocks.POLISHED_DENSE_SANDSTONE_SLAB);
 		SHORT_DRY_GRASS = block(TavaresAdditionsModBlocks.SHORT_DRY_GRASS);
 		TALL_DRY_GRASS = block(TavaresAdditionsModBlocks.TALL_DRY_GRASS);
+		BIO_TANGLE_ROOTS = block(TavaresAdditionsModBlocks.BIO_TANGLE_ROOTS);
 	}
 
 	// Start of user code block custom items
