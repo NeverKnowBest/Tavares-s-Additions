@@ -18,10 +18,10 @@
       "registry_name": "dense_sandstone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tavares_additions/models/item/dense_sandstone.json",
-          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone.json",
           "src/main/resources/assets/tavares_additions/blockstates/dense_sandstone.json",
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone.json",
           "src/main/java/net/mcreator/tavaresadditions/block/DenseSandstoneBlock.java",
+          "src/main/resources/assets/tavares_additions/models/item/dense_sandstone.json",
           "src/main/resources/data/tavares_additions/loot_tables/blocks/dense_sandstone.json"
         ]
       },
@@ -35,13 +35,13 @@
       "registry_name": "dense_sandstone_stairs",
       "metadata": {
         "files": [
+          "src/main/resources/data/tavares_additions/loot_tables/blocks/dense_sandstone_stairs.json",
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_stairs_outer.json",
           "src/main/java/net/mcreator/tavaresadditions/block/DenseSandstoneStairsBlock.java",
           "src/main/resources/assets/tavares_additions/models/item/dense_sandstone_stairs.json",
           "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_stairs.json",
-          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_stairs_inner.json",
-          "src/main/resources/data/tavares_additions/loot_tables/blocks/dense_sandstone_stairs.json",
           "src/main/resources/assets/tavares_additions/blockstates/dense_sandstone_stairs.json",
-          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_stairs_outer.json"
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_stairs_inner.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Deco"
@@ -54,13 +54,13 @@
       "registry_name": "dense_sandstone_slab",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavares_additions/loot_tables/blocks/dense_sandstone_slab.json",
-          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_slab.json",
-          "src/main/java/net/mcreator/tavaresadditions/block/DenseSandstoneSlabBlock.java",
-          "src/main/resources/assets/tavares_additions/blockstates/dense_sandstone_slab.json",
-          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_slab_top.json",
           "src/main/resources/assets/tavares_additions/models/item/dense_sandstone_slab.json",
-          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_slab_full.json"
+          "src/main/resources/data/tavares_additions/loot_tables/blocks/dense_sandstone_slab.json",
+          "src/main/java/net/mcreator/tavaresadditions/block/DenseSandstoneSlabBlock.java",
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_slab.json",
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_slab_full.json",
+          "src/main/resources/assets/tavares_additions/blockstates/dense_sandstone_slab.json",
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_slab_top.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Deco"
@@ -73,14 +73,14 @@
       "registry_name": "dense_sandstone_wall",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tavaresadditions/block/DenseSandstoneWallBlock.java",
-          "src/main/resources/assets/tavares_additions/models/item/dense_sandstone_wall.json",
-          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_wall.json",
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_wall_post.json",
           "src/main/resources/assets/tavares_additions/blockstates/dense_sandstone_wall.json",
-          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_wall_side_tall.json",
-          "src/main/resources/data/tavares_additions/loot_tables/blocks/dense_sandstone_wall.json",
           "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_wall_inventory.json",
-          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_wall_post.json"
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_wall.json",
+          "src/main/resources/assets/tavares_additions/models/block/dense_sandstone_wall_side_tall.json",
+          "src/main/resources/assets/tavares_additions/models/item/dense_sandstone_wall.json",
+          "src/main/resources/data/tavares_additions/loot_tables/blocks/dense_sandstone_wall.json",
+          "src/main/java/net/mcreator/tavaresadditions/block/DenseSandstoneWallBlock.java"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Deco"
@@ -177,11 +177,11 @@
       "registry_name": "polished_dense_sandstone",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone.json",
           "src/main/resources/data/tavares_additions/loot_tables/blocks/polished_dense_sandstone.json",
-          "src/main/resources/assets/tavares_additions/blockstates/polished_dense_sandstone.json",
           "src/main/resources/assets/tavares_additions/models/item/polished_dense_sandstone.json",
-          "src/main/java/net/mcreator/tavaresadditions/block/PolishedDenseSandstoneBlock.java",
-          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone.json"
+          "src/main/resources/assets/tavares_additions/blockstates/polished_dense_sandstone.json",
+          "src/main/java/net/mcreator/tavaresadditions/block/PolishedDenseSandstoneBlock.java"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Deco"
@@ -194,13 +194,13 @@
       "registry_name": "polished_dense_sandstone_stairs",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tavaresadditions/block/PolishedDenseSandstoneStairsBlock.java",
-          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone_stairs_outer.json",
-          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone_stairs.json",
           "src/main/resources/assets/tavares_additions/blockstates/polished_dense_sandstone_stairs.json",
-          "src/main/resources/assets/tavares_additions/models/item/polished_dense_sandstone_stairs.json",
           "src/main/resources/data/tavares_additions/loot_tables/blocks/polished_dense_sandstone_stairs.json",
-          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone_stairs_inner.json"
+          "src/main/resources/assets/tavares_additions/models/item/polished_dense_sandstone_stairs.json",
+          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone_stairs_inner.json",
+          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone_stairs.json",
+          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone_stairs_outer.json",
+          "src/main/java/net/mcreator/tavaresadditions/block/PolishedDenseSandstoneStairsBlock.java"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Deco"
@@ -213,13 +213,13 @@
       "registry_name": "polished_dense_sandstone_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tavares_additions/blockstates/polished_dense_sandstone_slab.json",
           "src/main/resources/assets/tavares_additions/models/item/polished_dense_sandstone_slab.json",
-          "src/main/resources/data/tavares_additions/loot_tables/blocks/polished_dense_sandstone_slab.json",
           "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone_slab_full.json",
+          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone_slab_top.json",
           "src/main/java/net/mcreator/tavaresadditions/block/PolishedDenseSandstoneSlabBlock.java",
-          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone_slab.json",
-          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone_slab_top.json"
+          "src/main/resources/data/tavares_additions/loot_tables/blocks/polished_dense_sandstone_slab.json",
+          "src/main/resources/assets/tavares_additions/blockstates/polished_dense_sandstone_slab.json",
+          "src/main/resources/assets/tavares_additions/models/block/polished_dense_sandstone_slab.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Deco"
@@ -457,9 +457,9 @@
       "registry_name": "bc_hanging_roots",
       "metadata": {
         "files": [
-          "src/main/resources/data/tavares_additions/forge/biome_modifier/bc_hanging_roots_biome_modifier.json",
+          "src/main/resources/data/tavares_additions/worldgen/placed_feature/bc_hanging_roots.json",
           "src/main/resources/data/tavares_additions/worldgen/configured_feature/bc_hanging_roots.json",
-          "src/main/resources/data/tavares_additions/worldgen/placed_feature/bc_hanging_roots.json"
+          "src/main/resources/data/tavares_additions/forge/biome_modifier/bc_hanging_roots_biome_modifier.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Features"
@@ -574,11 +574,11 @@
       "registry_name": "bio_tangle_roots",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tavares_additions/models/block/bio_tangle_roots.json",
           "src/main/resources/data/tavares_additions/loot_tables/blocks/bio_tangle_roots.json",
+          "src/main/resources/assets/tavares_additions/models/block/bio_tangle_roots.json",
+          "src/main/resources/assets/tavares_additions/blockstates/bio_tangle_roots.json",
           "src/main/java/net/mcreator/tavaresadditions/block/BioTangleRootsBlock.java",
-          "src/main/resources/assets/tavares_additions/models/item/bio_tangle_roots.json",
-          "src/main/resources/assets/tavares_additions/blockstates/bio_tangle_roots.json"
+          "src/main/resources/assets/tavares_additions/models/item/bio_tangle_roots.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks"
@@ -592,9 +592,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/tavares_additions/loot_tables/blocks/bio_tangle_roots_middle.json",
-          "src/main/resources/assets/tavares_additions/blockstates/bio_tangle_roots_middle.json",
+          "src/main/java/net/mcreator/tavaresadditions/block/BioTangleRootsMiddleBlock.java",
           "src/main/resources/assets/tavares_additions/models/block/bio_tangle_roots_middle.json",
-          "src/main/java/net/mcreator/tavaresadditions/block/BioTangleRootsMiddleBlock.java"
+          "src/main/resources/assets/tavares_additions/blockstates/bio_tangle_roots_middle.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks"
@@ -608,9 +608,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/tavaresadditions/block/BioTangleRootsTopBlock.java",
+          "src/main/resources/assets/tavares_additions/models/block/bio_tangle_roots_top.json",
           "src/main/resources/data/tavares_additions/loot_tables/blocks/bio_tangle_roots_top.json",
-          "src/main/resources/assets/tavares_additions/blockstates/bio_tangle_roots_top.json",
-          "src/main/resources/assets/tavares_additions/models/block/bio_tangle_roots_top.json"
+          "src/main/resources/assets/tavares_additions/blockstates/bio_tangle_roots_top.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks"
@@ -645,21 +645,43 @@
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Procedure"
+    },
+    {
+      "name": "BioTangleRootsOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bio_tangle_roots_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/tavaresadditions/procedures/BioTangleRootsOnBoneMealSuccessProcedure.java"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Procedure"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:PolishedDenseSandstoneSlab",
-      "~CUSTOM:PolishedDenseSandstoneStairs",
-      "~CUSTOM:PolishedDenseSandstone",
-      "~CUSTOM:DenseSandstoneWall",
-      "~CUSTOM:DenseSandstoneSlab",
-      "~CUSTOM:DenseSandstoneStairs",
-      "~CUSTOM:DenseSandstone"
-    ],
-    "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:PolishedDenseSandstoneSlab",
       "~CUSTOM:PolishedDenseSandstoneStairs",
       "~CUSTOM:PolishedDenseSandstone",
@@ -685,6 +707,11 @@
       "~CUSTOM:BioTangleRoots",
       "~CUSTOM:TallDryGrass",
       "~CUSTOM:ShortDryGrass"
+    ],
+    "BLOCKS:minecraft:climbable": [
+      "~CUSTOM:BioTangleRootsTop",
+      "~CUSTOM:BioTangleRootsMiddle",
+      "~CUSTOM:BioTangleRoots"
     ]
   },
   "tab_element_order": {},
@@ -724,11 +751,11 @@
       "src/main/java/net/mcreator/tavaresadditions/init/TavaresAdditionsModBlocks.java",
       "src/main/java/net/mcreator/tavaresadditions/init/TavaresAdditionsModItems.java",
       "src/main/java/net/mcreator/tavaresadditions/init/TavaresAdditionsModTabs.java",
-      "src/main/resources/META-INF/mods.toml",
-      "src/main/resources/tavares_additions.mixins.json",
+      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/tavaresadditions/TavaresAdditionsMod.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/resources/META-INF/accesstransformer.cfg"
+      "src/main/resources/tavares_additions.mixins.json",
+      "src/main/resources/META-INF/mods.toml"
     ]
   },
   "foldersRoot": {

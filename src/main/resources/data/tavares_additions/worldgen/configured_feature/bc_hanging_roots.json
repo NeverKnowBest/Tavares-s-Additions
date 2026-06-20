@@ -9,6 +9,15 @@
     "prioritize_tip": true,
     "layers": [
       {
+        "height": 1,
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "tavares_additions:bio_tangle_roots_top"
+          }
+        }
+      },
+      {
         "height": {
           "type": "weighted_list",
           "distribution": [
@@ -44,6 +53,15 @@
             }
           ]
         },
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "tavares_additions:bio_tangle_roots_middle"
+          }
+        }
+      },
+      {
+        "height": 1,
         "provider": {
           "type": "minecraft:simple_state_provider",
           "state": {

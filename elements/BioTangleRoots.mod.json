@@ -86,15 +86,15 @@
     "strippingResult": {
       "value": ""
     },
-    "ignitedByLava": false,
-    "flammability": 0,
-    "fireSpreadSpeed": 0,
-    "isLadder": false,
+    "ignitedByLava": true,
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "isLadder": true,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "reactionToPushing": "DESTROY",
+    "isNotColidable": true,
     "isCustomSoundType": false,
     "soundOnStep": {
       "value": "VINE"
@@ -122,7 +122,10 @@
     "placingCondition": {
       "name": "BioTangleRootsBlockValidPlacementCondition"
     },
-    "isBonemealable": false,
+    "isBonemealable": true,
+    "onBonemealSuccess": {
+      "name": "BioTangleRootsOnBoneMealSuccess"
+    },
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
     "vibrationSensitivityRadius": {
