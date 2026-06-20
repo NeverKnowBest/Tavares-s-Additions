@@ -149,6 +149,9 @@
     "onNeighbourBlockChanges": {
       "name": "BioTangleRootsUpdateState"
     },
+    "onDestroyedByPlayer": {
+      "name": "BioTangleRootsDestroyedByPlayer"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

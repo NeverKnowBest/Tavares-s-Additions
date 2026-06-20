@@ -574,11 +574,11 @@
       "registry_name": "bio_tangle_roots",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tavares_additions/models/block/bio_tangle_roots.json",
           "src/main/resources/data/tavares_additions/loot_tables/blocks/bio_tangle_roots.json",
+          "src/main/resources/assets/tavares_additions/models/block/bio_tangle_roots.json",
+          "src/main/resources/assets/tavares_additions/blockstates/bio_tangle_roots.json",
           "src/main/java/net/mcreator/tavaresadditions/block/BioTangleRootsBlock.java",
-          "src/main/resources/assets/tavares_additions/models/item/bio_tangle_roots.json",
-          "src/main/resources/assets/tavares_additions/blockstates/bio_tangle_roots.json"
+          "src/main/resources/assets/tavares_additions/models/item/bio_tangle_roots.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks"
@@ -592,9 +592,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/tavares_additions/loot_tables/blocks/bio_tangle_roots_middle.json",
-          "src/main/resources/assets/tavares_additions/blockstates/bio_tangle_roots_middle.json",
+          "src/main/java/net/mcreator/tavaresadditions/block/BioTangleRootsMiddleBlock.java",
           "src/main/resources/assets/tavares_additions/models/block/bio_tangle_roots_middle.json",
-          "src/main/java/net/mcreator/tavaresadditions/block/BioTangleRootsMiddleBlock.java"
+          "src/main/resources/assets/tavares_additions/blockstates/bio_tangle_roots_middle.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks"
@@ -608,9 +608,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/tavaresadditions/block/BioTangleRootsTopBlock.java",
+          "src/main/resources/assets/tavares_additions/models/block/bio_tangle_roots_top.json",
           "src/main/resources/data/tavares_additions/loot_tables/blocks/bio_tangle_roots_top.json",
-          "src/main/resources/assets/tavares_additions/blockstates/bio_tangle_roots_top.json",
-          "src/main/resources/assets/tavares_additions/models/block/bio_tangle_roots_top.json"
+          "src/main/resources/assets/tavares_additions/blockstates/bio_tangle_roots_top.json"
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks"
@@ -645,6 +645,72 @@
         ]
       },
       "path": "~/Biomes/Biolumen Cave/Blocks/Procedure"
+    },
+    {
+      "name": "BioTangleRootsOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bio_tangle_roots_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/tavaresadditions/procedures/BioTangleRootsOnBoneMealSuccessProcedure.java"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Procedure"
+    },
+    {
+      "name": "BioTangleRootsDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bio_tangle_roots_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/tavaresadditions/procedures/BioTangleRootsDestroyedByPlayerProcedure.java"
+        ]
+      },
+      "path": "~/Biomes/Biolumen Cave/Blocks/Procedure"
     }
   ],
   "variable_elements": [],
@@ -676,6 +742,11 @@
       "~CUSTOM:BioTangleRoots",
       "~CUSTOM:TallDryGrass",
       "~CUSTOM:ShortDryGrass"
+    ],
+    "BLOCKS:minecraft:climbable": [
+      "~CUSTOM:BioTangleRootsTop",
+      "~CUSTOM:BioTangleRootsMiddle",
+      "~CUSTOM:BioTangleRoots"
     ]
   },
   "tab_element_order": {},

@@ -48,7 +48,7 @@ public class TavaresAdditionsModBiomes {
 				// Inject biomes to biome source
 				if (chunkGenerator.getBiomeSource() instanceof MultiNoiseBiomeSource noiseSource) {
 					List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters().values());
-					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(1f, 2f), Climate.Parameter.span(-1f, -0.4f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(-1f, 1f),
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(1f, 2f), Climate.Parameter.span(-2f, -0.4f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(-1f, 1f),
 							Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("tavares_additions", "biolumen_cave")))));
 					chunkGenerator.biomeSource = MultiNoiseBiomeSource.createFromList(new Climate.ParameterList<>(parameters));
 					chunkGenerator.featuresPerStep = Suppliers
